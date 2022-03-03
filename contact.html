@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Contact</title>
+	<link rel="stylesheet" href="https://use.typekit.net/rdu3grp.css">
+	<link rel="stylesheet" href="https://use.typekit.net/rdu3grp.css">
+	<link rel="stylesheet" href="https://use.typekit.net/rdu3grp.css">
+	<link rel="stylesheet" href="https://use.typekit.net/rdu3grp.css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		aside, main{
+			height: 500px;
+		}
+		aside {
+			height: 600px;
+		}
+		footer {
+			position: left;
+			clear: both;
+			text-align: center;
+			height: 50px;
+			line-height: 50px;
+			font-size: 80%;
+			margin-left: auto;
+			margin-right: auto;
+			text-transform: uppercase;
+		}
+		footer a:link {
+			color: #8769BF;
+			text-decoration: none;
+		}
+		footer a:visited {
+			text-decoration: none;
+			color: #8769BF;
+		}
+		footer a:hover {
+			text-decoration: none;
+			color: #F794C6;
+		}
+		footer a:active {
+			text-decoration: none;
+			color: #18B58A;
+		}
+	</style>
+</head>
+
+<body>
+<div id="container">
+  <header></header>
+  <nav>
+	  <ul> 
+		  <li><a href="travel.html">GO & DO</a></li>
+		  <li><a href="info.html">INFO</a></li>
+		  <li><a href="gallery.html">GALLERY</a></li>
+		  <li><a href="contact.html">CONTACT</a></li>
+	  </ul>
+  </nav>
+  <!--Begin Floated Elements-->
+  <aside>
+	  <h3>This page will allow you to contact me.
+	  <br><br>Contact me for clarification, suggestions, or if you need more information.</h3>
+  </aside>
+  <main>
+    <h1>Contact Me</h1>
+	  <form>
+	  	<p>Your Name: <input name="user_name" type="text" id="user_name" value="First and Last Name Please" size="63"></p>
+		<p>Your Email: <input name="user_email" type="email" id="user_email" size="64"></p>
+		<p>Leave a message: <br>
+		<textarea name="user_comment" cols="65" rows="10" id="user_comment"></textarea></p>
+	    <p>How did you hear about this travel site?<br>
+		    <label>
+		      <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0">
+		      Search Engine</label>
+		    <br>
+		    <label>
+		      <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1">
+		      Social Media</label>
+		    <br>
+		    <label>
+		      <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_2">
+		      Friend</label>
+		    <br>
+		    <label>
+		      <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_3"> Relative</label>
+	    </p>
+		  <p class="submit_btn">
+		    <input type="submit" class="submit_btn" formaction="comment-box.php" formmethod="POST" value="Send Me A Message">
+	    </p>
+      </form>
+  </main>
+  <!--End Floated Elements-->
+  <footer>For further detailed information, visit <a href="https://www.visitbritain.com/us/en">this website</a>.</footer>
+</div>
+</body>
+</html>
